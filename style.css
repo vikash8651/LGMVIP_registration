@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    background-color: yellow;
+    color: black;
+    margin-top:40px ;
+    padding: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.heading{
+    text-align: center;
+}
+.first_section{
+    width: 50%;
+    margin-top: 20px;
+    font-size: larger;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-right: 2px solid black;
+    display: inline-block;
+    padding: 10px;
+}
+form{
+    padding: 10px;
+    font-size: 30px;
+}
+input[type=text]{
+    padding: 10px;
+    height: 30px;
+    border: 2px solid black;
+    font-size: 24px;
+    width: 350px;
+    color: brown;
+    float: right;
+}
+input[type=email]{
+    font-size: 24px;
+    color: blue;
+    padding: 10px;
+    height: 30px;
+    border: 2px solid black;
+    width: 350px;
+    float: right;
+}
+input[type=radio]{
+    margin-left: 150px;
+    height:20px; 
+    width:20px;
+}
+input[type=checkbox]{
+    margin-left: 90px;
+    height:20px; 
+    width:20px;
+}
+input[type=button]{
+    background-color: pink;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    margin: 40px;
+    cursor: pointer;
+    border: 1px solid pink;
+    box-shadow: 2px 2px 5px black;
+}
+input[type=reset]{
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    margin: 40px;
+    border: 1px solid red;
+    box-shadow: 2px 2px 5px black;
+}
+.second_section{
+    width: 50%;
+    float: right;
+    margin-top: 20px;
+    
+    font-size: larger;
+    font-family: sans-serif;
+    padding: 10px;
+}

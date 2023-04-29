@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Enrollment Form</title>
+</head>
+<body>
+    <h1 class="heading">Student Enrollment Form</h1>
+    <div class="first_section">
+        <h3 class="heading">Fill the Form to be Enrolled</h3>
+        <form>
+            Name:
+            <input type="text" id="name" name="name"  ><br>
+            Email:
+            <input type="email" id="email" name="email" ><br>
+            Website:
+            <input type="text" id="website" name="website" ><br>
+            Image Link:
+            <input type="text" id="imagename" name="image" ><br>
+            Gender: <br>
+            <input type="radio" name="gender" value="male"> Male 
+            <input type="radio" name="gender" value="female"> Female <br>
+            Skills: <br>
+            <input type="checkbox"  name="skills" value="HTML"> HTML 
+            <input type="checkbox" name="skills" value="CSS" > CSS 
+            <input type="checkbox" name="skills" value="JavaScript"> JavaScript <br>
+           
+           
+            <input type="button" value="Enroll Student" id="enroll_now">
+            <input type="reset" value="Clear">
+
+
+        </form>
+
+    </div>
+    <div class="second_section">
+        <h3 class="heading">Enrolled Students</h3>
+        <div id="paste"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
